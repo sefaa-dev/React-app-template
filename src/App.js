@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Footerr from './Architect-Template/Footerr';
+import Headerr from './Architect-Template/Headerr';
+import Navbarr from './Architect-Template/Navbarr';
+import PageContentt from './Architect-Template/PageContentt';
+
+import Footer from './Gurme-Template/Footer';
+import Header from './Gurme-Template/Header';
+import Navbar from './Gurme-Template/Navbar';
+import PageContent from './Gurme-Template/PageContent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   <>
+   {/* <Navbar></Navbar>
+   <Header></Header>
+   <PageContent></PageContent>
+   <Footer></Footer> */}
+
+   <Navbarr></Navbarr>
+   <Headerr></Headerr>
+   <PageContentt></PageContentt>
+   <Footerr></Footerr>
+   
+   </>
+
   );
 }
 
